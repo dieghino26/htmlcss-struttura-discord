@@ -4,3 +4,32 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Utils */
+
+/* header */
+header {
+    display: flex;
+    justify-content: center;
+    min-height: 80px;
+    background-color: darkturquoise;
+    padding: 15px;
+
+}
+
+.main-header {
+    flex-basis: 60%;
+    background-color: goldenrod;
+    display: flex
+}
+
+.logo,
+.login {
+    flex-basis: 20%;
+    border: 2px dashed black;
+}
+
+.link {
+    flex-basis: 60%;
+    border: 2px dashed black;
+}
