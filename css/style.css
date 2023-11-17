@@ -5,7 +5,32 @@
     box-sizing: border-box;
 }
 
-/* Utils */
+/* Generals */
+section {
+    display: flex;
+    min-height: 600px;
+    justify-content: center;
+    padding: 50px;
+}
+
+.container {
+    display: flex;
+    flex-basis: 65%;
+}
+
+.photo {
+    flex-basis: 60%;
+    border: 2px dashed black;
+    background-color: #1E90FF;
+}
+
+.info {
+
+    flex-basis: 40%;
+    border: 2px dashed black;
+    background-color: #FFC0CB;
+
+}
 
 /* header */
 header {
@@ -37,7 +62,7 @@ header {
 /* jumbotron */
 .jumbotron {
     display: flex;
-    height: 500px;
+    min-height: 500px;
     justify-content: center;
     background-color: #00008B;
     padding: 40px;
