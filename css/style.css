@@ -76,6 +76,8 @@ header {
 
 }
 
+/* body */
+
 .info-call,
 .quality-info {
     background-color: #D3D3D3;
@@ -92,4 +94,66 @@ header {
     min-height: 900px;
     border: 2px dashed black;
     background-color: #228B22;
+}
+
+footer {
+    background-color: #23272A;
+}
+
+.socials {
+    flex-basis: 30%;
+    background-color: #F08080;
+    border: 2px dashed black;
+}
+
+/* info list*/
+.info-list {
+    flex-basis: 70%;
+    background-color: #20B2AA;
+    border: 2px dashed black;
+    display: flex;
+
+
+}
+
+.list {
+
+    flex-basis: 25%;
+    border: 2px dashed #fff
+}
+
+/*main footer*/
+.info-creators {
+    border-bottom: 2px solid #fff;
+
+
+}
+
+.footer {
+    min-height: 130px;
+    padding: 30px 50px 0px 50px;
+
+}
+
+.bottom-bar {
+    flex-basis: 100%;
+    background-color: #7FFFD4;
+    display: flex;
+    padding: 30px 0px 30px 0px;
+    border: 2px dashed black;
+    justify-content: space-between;
+}
+
+.bottom-logo {
+
+    flex-basis: 100px;
+    background-color: #FFB6C1;
+    border: 2px dashed black;
+}
+
+.button {
+
+    flex-basis: 100px;
+    background-color: #FFB6C1;
+    border: 2px dashed black;
 }
