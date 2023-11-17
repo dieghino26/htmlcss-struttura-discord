@@ -13,6 +13,11 @@ section {
     padding: 50px;
 }
 
+.container {
+    display: flex;
+    flex-basis: 65%;
+}
+
 
 .photo {
     flex-basis: 60%;
@@ -71,17 +76,20 @@ header {
 
 }
 
-.info-call {
+.info-call,
+.quality-info {
     background-color: #D3D3D3;
 }
 
-.white-container {
-    display: flex;
-    flex-basis: 65%;
-}
-
-.grey-container {
+.reverse-container {
     display: flex;
     flex-basis: 65%;
     flex-direction: row-reverse;
+}
+
+.quality-info .container {
+    flex-basis: 65%;
+    min-height: 900px;
+    border: 2px dashed black;
+    background-color: #228B22;
 }
